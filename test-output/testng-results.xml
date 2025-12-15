@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-15T23:04:48 IST" name="Suite" finished-at="2025-12-15T23:04:56 IST" duration-ms="7880">
+    <groups>
+    </groups>
+    <test started-at="2025-12-15T23:04:48 IST" name="Test" finished-at="2025-12-15T23:04:56 IST" duration-ms="7880">
+      <class name="com.testNG.SimpleAnnotations">
+        <test-method is-config="true" signature="propertySetting()[pri:0, instance:com.testNG.SimpleAnnotations@77f1baf5]" started-at="2025-12-15T23:04:48 IST" name="propertySetting" finished-at="2025-12-15T23:04:48 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- propertySetting -->
+        <test-method is-config="true" signature="browserLaunnch()[pri:0, instance:com.testNG.SimpleAnnotations@77f1baf5]" started-at="2025-12-15T23:04:48 IST" name="browserLaunnch" finished-at="2025-12-15T23:04:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunnch -->
+        <test-method is-config="true" signature="urlLaunch()[pri:0, instance:com.testNG.SimpleAnnotations@77f1baf5]" started-at="2025-12-15T23:04:48 IST" name="urlLaunch" finished-at="2025-12-15T23:04:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLaunch -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.testNG.SimpleAnnotations@77f1baf5]" started-at="2025-12-15T23:04:48 IST" name="login" finished-at="2025-12-15T23:04:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="accessories()[pri:0, instance:com.testNG.SimpleAnnotations@77f1baf5]" started-at="2025-12-15T23:04:48 IST" name="accessories" finished-at="2025-12-15T23:04:48 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessories -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.testNG.SimpleAnnotations@77f1baf5]" started-at="2025-12-15T23:04:48 IST" name="logout" finished-at="2025-12-15T23:04:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="kids()[pri:0, instance:com.testNG.SimpleAnnotations@77f1baf5]" started-at="2025-12-15T23:04:48 IST" name="kids" finished-at="2025-12-15T23:04:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kids -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.testNG.SimpleAnnotations@77f1baf5]" started-at="2025-12-15T23:04:48 IST" name="login" finished-at="2025-12-15T23:04:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.testNG.SimpleAnnotations@77f1baf5]" started-at="2025-12-15T23:04:48 IST" name="logout" finished-at="2025-12-15T23:04:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="men()[pri:0, instance:com.testNG.SimpleAnnotations@77f1baf5]" started-at="2025-12-15T23:04:48 IST" name="men" finished-at="2025-12-15T23:04:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- men -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.testNG.SimpleAnnotations@77f1baf5]" started-at="2025-12-15T23:04:48 IST" name="login" finished-at="2025-12-15T23:04:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.testNG.SimpleAnnotations@77f1baf5]" started-at="2025-12-15T23:04:48 IST" name="logout" finished-at="2025-12-15T23:04:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="women()[pri:0, instance:com.testNG.SimpleAnnotations@77f1baf5]" started-at="2025-12-15T23:04:48 IST" name="women" finished-at="2025-12-15T23:04:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- women -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.testNG.SimpleAnnotations@77f1baf5]" started-at="2025-12-15T23:04:48 IST" name="login" finished-at="2025-12-15T23:04:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.testNG.SimpleAnnotations@77f1baf5]" started-at="2025-12-15T23:04:48 IST" name="logout" finished-at="2025-12-15T23:04:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="screenshot()[pri:0, instance:com.testNG.SimpleAnnotations@77f1baf5]" started-at="2025-12-15T23:04:48 IST" name="screenshot" finished-at="2025-12-15T23:04:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.testNG.SimpleAnnotations@77f1baf5]" started-at="2025-12-15T23:04:56 IST" name="close" finished-at="2025-12-15T23:04:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="terminat_Browser()[pri:0, instance:com.testNG.SimpleAnnotations@77f1baf5]" started-at="2025-12-15T23:04:56 IST" name="terminat_Browser" finished-at="2025-12-15T23:04:56 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminat_Browser -->
+      </class> <!-- com.testNG.SimpleAnnotations -->
+      <class name="com.testNG.CrossBrowserTesting">
+        <test-method signature="Firefox()[pri:0, instance:com.testNG.CrossBrowserTesting@38afe297]" started-at="2025-12-15T23:04:48 IST" name="Firefox" finished-at="2025-12-15T23:04:54 IST" duration-ms="5352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Firefox -->
+        <test-method signature="chrome()[pri:0, instance:com.testNG.CrossBrowserTesting@38afe297]" started-at="2025-12-15T23:04:54 IST" name="chrome" finished-at="2025-12-15T23:04:56 IST" duration-ms="2424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chrome -->
+        <test-method signature="edge()[pri:0, instance:com.testNG.CrossBrowserTesting@38afe297]" started-at="2025-12-15T23:04:56 IST" name="edge" finished-at="2025-12-15T23:04:56 IST" duration-ms="34" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error: occured During Browser launch]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error: occured During Browser launch
+at org.junit.Assert.fail(Assert.java:89)
+at com.base.Base_Class.launchBrowser(Base_Class.java:38)
+at com.testNG.CrossBrowserTesting.edge(CrossBrowserTesting.java:11)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edge -->
+      </class> <!-- com.testNG.CrossBrowserTesting -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
