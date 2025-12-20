@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-20T13:31:58 IST" name="Suite" finished-at="2025-12-20T13:32:36 IST" duration-ms="37485">
+    <groups>
+    </groups>
+    <test started-at="2025-12-20T13:31:58 IST" name="Test" finished-at="2025-12-20T13:32:36 IST" duration-ms="37485">
+      <class name="com.runner.NaukriRunner">
+        <test-method is-config="true" signature="reportStart()[pri:0, instance:com.runner.NaukriRunner@bccb269]" started-at="2025-12-20T13:31:58 IST" name="reportStart" finished-at="2025-12-20T13:31:58 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportStart -->
+        <test-method is-config="true" signature="setupProeprty()[pri:0, instance:com.runner.NaukriRunner@bccb269]" started-at="2025-12-20T13:31:58 IST" name="setupProeprty" finished-at="2025-12-20T13:32:02 IST" duration-ms="3666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupProeprty -->
+        <test-method is-config="true" signature="validate_Login()[pri:0, instance:com.runner.NaukriRunner@bccb269]" started-at="2025-12-20T13:32:02 IST" name="validate_Login" finished-at="2025-12-20T13:32:03 IST" duration-ms="998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Login -->
+        <test-method signature="ProfileUpdate()[pri:1, instance:com.runner.NaukriRunner@bccb269]" started-at="2025-12-20T13:32:03 IST" name="ProfileUpdate" finished-at="2025-12-20T13:32:05 IST" duration-ms="2359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProfileUpdate -->
+        <test-method signature="resumeUpload()[pri:2, instance:com.runner.NaukriRunner@bccb269]" started-at="2025-12-20T13:32:05 IST" name="resumeUpload" finished-at="2025-12-20T13:32:11 IST" duration-ms="5321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resumeUpload -->
+        <test-method signature="resumeHeadline()[pri:3, instance:com.runner.NaukriRunner@bccb269]" started-at="2025-12-20T13:32:11 IST" name="resumeHeadline" finished-at="2025-12-20T13:32:11 IST" duration-ms="538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resumeHeadline -->
+        <test-method signature="keyskills()[pri:4, instance:com.runner.NaukriRunner@bccb269]" started-at="2025-12-20T13:32:11 IST" name="keyskills" finished-at="2025-12-20T13:32:18 IST" duration-ms="6097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- keyskills -->
+        <test-method signature="employmentPage()[pri:5, instance:com.runner.NaukriRunner@bccb269]" started-at="2025-12-20T13:32:18 IST" name="employmentPage" finished-at="2025-12-20T13:32:18 IST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employmentPage -->
+        <test-method signature="itSkills()[pri:6, instance:com.runner.NaukriRunner@bccb269]" started-at="2025-12-20T13:32:18 IST" name="itSkills" finished-at="2025-12-20T13:32:18 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itSkills -->
+        <test-method signature="projectPage()[pri:7, instance:com.runner.NaukriRunner@bccb269]" started-at="2025-12-20T13:32:18 IST" name="projectPage" finished-at="2025-12-20T13:32:32 IST" duration-ms="13644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- projectPage -->
+        <test-method signature="ProfileSummary()[pri:8, instance:com.runner.NaukriRunner@bccb269]" started-at="2025-12-20T13:32:32 IST" name="ProfileSummary" finished-at="2025-12-20T13:32:33 IST" duration-ms="663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProfileSummary -->
+        <test-method signature="careerprofile()[pri:9, instance:com.runner.NaukriRunner@bccb269]" started-at="2025-12-20T13:32:33 IST" name="careerprofile" finished-at="2025-12-20T13:32:33 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- careerprofile -->
+        <test-method signature="personalPage()[pri:10, instance:com.runner.NaukriRunner@bccb269]" started-at="2025-12-20T13:32:33 IST" name="personalPage" finished-at="2025-12-20T13:32:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personalPage -->
+        <test-method signature="logout()[pri:11, instance:com.runner.NaukriRunner@bccb269]" started-at="2025-12-20T13:32:33 IST" name="logout" finished-at="2025-12-20T13:32:34 IST" duration-ms="948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="browserTermination()[pri:0, instance:com.runner.NaukriRunner@bccb269]" started-at="2025-12-20T13:32:35 IST" name="browserTermination" finished-at="2025-12-20T13:32:36 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserTermination -->
+        <test-method is-config="true" signature="reportEnd()[pri:0, instance:com.runner.NaukriRunner@bccb269]" started-at="2025-12-20T13:32:36 IST" name="reportEnd" finished-at="2025-12-20T13:32:36 IST" duration-ms="865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportEnd -->
+      </class> <!-- com.runner.NaukriRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
