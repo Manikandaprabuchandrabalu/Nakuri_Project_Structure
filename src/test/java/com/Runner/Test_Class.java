@@ -1,4 +1,4 @@
-package com.Runner;
+package com.runner;
 
 public class Test_Class {
 
