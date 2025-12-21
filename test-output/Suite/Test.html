@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/5</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Dec 20 13:31:58 IST 2025</td>
+<td>Started on:</td><td>Sun Dec 21 13:26:58 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>37 seconds (37485 ms)</td>
+<tr><td>Total time:</td><td>45 seconds (45444 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,51 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.runner.NaukriRunner.browserTermination()'><b>browserTermination</b><br>Test class: com.runner.NaukriRunner</td>
+<td><div><pre>java.lang.AssertionError: ERROR: OCCURRED DURING CLOSING BROWSER
+	at org.junit.Assert.fail(Assert.java:89)
+	at com.base.Base_Class.closeBrowser(Base_Class.java:85)
+	at com.runner.NaukriRunner.browserTermination(NaukriRunner.java:95)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace433851698", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace433851698'><pre>java.lang.AssertionError: ERROR: OCCURRED DURING CLOSING BROWSER
+	at org.junit.Assert.fail(Assert.java:89)
+	at com.base.Base_Class.closeBrowser(Base_Class.java:85)
+	at com.runner.NaukriRunner.browserTermination(NaukriRunner.java:95)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
+	at org.testng.TestRunner.afterRun(TestRunner.java:845)
+	at org.testng.TestRunner.run(TestRunner.java:618)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>com.runner.NaukriRunner@bccb269</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,34 +121,9 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.runner.NaukriRunner.itSkills()'><b>itSkills</b><br>Test class: com.runner.NaukriRunner</td>
+<td title='com.runner.NaukriRunner.ProfileUpdate()'><b>ProfileUpdate</b><br>Test class: com.runner.NaukriRunner</td>
 <td></td>
-<td>0</td>
-<td>com.runner.NaukriRunner@bccb269</td></tr>
-<tr>
-<td title='com.runner.NaukriRunner.projectPage()'><b>projectPage</b><br>Test class: com.runner.NaukriRunner</td>
-<td></td>
-<td>13</td>
-<td>com.runner.NaukriRunner@bccb269</td></tr>
-<tr>
-<td title='com.runner.NaukriRunner.ProfileSummary()'><b>ProfileSummary</b><br>Test class: com.runner.NaukriRunner</td>
-<td></td>
-<td>0</td>
-<td>com.runner.NaukriRunner@bccb269</td></tr>
-<tr>
-<td title='com.runner.NaukriRunner.careerprofile()'><b>careerprofile</b><br>Test class: com.runner.NaukriRunner</td>
-<td></td>
-<td>0</td>
-<td>com.runner.NaukriRunner@bccb269</td></tr>
-<tr>
-<td title='com.runner.NaukriRunner.personalPage()'><b>personalPage</b><br>Test class: com.runner.NaukriRunner</td>
-<td></td>
-<td>0</td>
-<td>com.runner.NaukriRunner@bccb269</td></tr>
-<tr>
-<td title='com.runner.NaukriRunner.resumeUpload()'><b>resumeUpload</b><br>Test class: com.runner.NaukriRunner</td>
-<td></td>
-<td>5</td>
+<td>2</td>
 <td>com.runner.NaukriRunner@bccb269</td></tr>
 <tr>
 <td title='com.runner.NaukriRunner.keyskills()'><b>keyskills</b><br>Test class: com.runner.NaukriRunner</td>
@@ -111,9 +131,9 @@ function toggleAllBoxes() {
 <td>6</td>
 <td>com.runner.NaukriRunner@bccb269</td></tr>
 <tr>
-<td title='com.runner.NaukriRunner.ProfileUpdate()'><b>ProfileUpdate</b><br>Test class: com.runner.NaukriRunner</td>
+<td title='com.runner.NaukriRunner.resumeUpload()'><b>resumeUpload</b><br>Test class: com.runner.NaukriRunner</td>
 <td></td>
-<td>2</td>
+<td>5</td>
 <td>com.runner.NaukriRunner@bccb269</td></tr>
 <tr>
 <td title='com.runner.NaukriRunner.employmentPage()'><b>employmentPage</b><br>Test class: com.runner.NaukriRunner</td>
@@ -121,14 +141,238 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>com.runner.NaukriRunner@bccb269</td></tr>
 <tr>
-<td title='com.runner.NaukriRunner.logout()'><b>logout</b><br>Test class: com.runner.NaukriRunner</td>
+<td title='com.runner.NaukriRunner.resumeHeadline()'><b>resumeHeadline</b><br>Test class: com.runner.NaukriRunner</td>
 <td></td>
 <td>0</td>
 <td>com.runner.NaukriRunner@bccb269</td></tr>
 <tr>
-<td title='com.runner.NaukriRunner.resumeHeadline()'><b>resumeHeadline</b><br>Test class: com.runner.NaukriRunner</td>
+<td title='com.runner.NaukriRunner.itSkills()'><b>itSkills</b><br>Test class: com.runner.NaukriRunner</td>
 <td></td>
 <td>0</td>
+<td>com.runner.NaukriRunner@bccb269</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.runner.NaukriRunner.projectPage()'><b>projectPage</b><br>Test class: com.runner.NaukriRunner</td>
+<td><div><pre>java.lang.AssertionError: ERROR: OCCURRED DURING CLICKING OF ELEMENT
+	at org.junit.Assert.fail(Assert.java:89)
+	at com.base.Base_Class.elementClick(Base_Class.java:76)
+	at com.pageobjectmodel.ProjectsPage.ProjectsPageValidation(ProjectsPage.java:53)
+	at com.runner.NaukriRunner.projectPage(NaukriRunner.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2134885423", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2134885423'><pre>java.lang.AssertionError: ERROR: OCCURRED DURING CLICKING OF ELEMENT
+	at org.junit.Assert.fail(Assert.java:89)
+	at com.base.Base_Class.elementClick(Base_Class.java:76)
+	at com.pageobjectmodel.ProjectsPage.ProjectsPageValidation(ProjectsPage.java:53)
+	at com.runner.NaukriRunner.projectPage(NaukriRunner.java:70)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>4</td>
+<td>com.runner.NaukriRunner@bccb269</td></tr>
+<tr>
+<td title='com.runner.NaukriRunner.projectPage()'><b>projectPage</b><br>Test class: com.runner.NaukriRunner</td>
+<td><div><pre>java.lang.AssertionError: ERROR: OCCURRED DURING CLICKING OF ELEMENT
+	at org.junit.Assert.fail(Assert.java:89)
+	at com.base.Base_Class.elementClick(Base_Class.java:76)
+	at com.pageobjectmodel.ProjectsPage.ProjectsPageValidation(ProjectsPage.java:53)
+	at com.runner.NaukriRunner.projectPage(NaukriRunner.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1096648926", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1096648926'><pre>java.lang.AssertionError: ERROR: OCCURRED DURING CLICKING OF ELEMENT
+	at org.junit.Assert.fail(Assert.java:89)
+	at com.base.Base_Class.elementClick(Base_Class.java:76)
+	at com.pageobjectmodel.ProjectsPage.ProjectsPageValidation(ProjectsPage.java:53)
+	at com.runner.NaukriRunner.projectPage(NaukriRunner.java:70)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>4</td>
+<td>com.runner.NaukriRunner@bccb269</td></tr>
+<tr>
+<td title='com.runner.NaukriRunner.projectPage()'><b>projectPage</b><br>Test class: com.runner.NaukriRunner</td>
+<td><div><pre>java.lang.AssertionError: ERROR: OCCURRED DURING CLICKING OF ELEMENT
+	at org.junit.Assert.fail(Assert.java:89)
+	at com.base.Base_Class.elementClick(Base_Class.java:76)
+	at com.pageobjectmodel.ProjectsPage.ProjectsPageValidation(ProjectsPage.java:53)
+	at com.runner.NaukriRunner.projectPage(NaukriRunner.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace918475642", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace918475642'><pre>java.lang.AssertionError: ERROR: OCCURRED DURING CLICKING OF ELEMENT
+	at org.junit.Assert.fail(Assert.java:89)
+	at com.base.Base_Class.elementClick(Base_Class.java:76)
+	at com.pageobjectmodel.ProjectsPage.ProjectsPageValidation(ProjectsPage.java:53)
+	at com.runner.NaukriRunner.projectPage(NaukriRunner.java:70)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>4</td>
+<td>com.runner.NaukriRunner@bccb269</td></tr>
+<tr>
+<td title='com.runner.NaukriRunner.projectPage()'><b>projectPage</b><br>Test class: com.runner.NaukriRunner</td>
+<td><div><pre>java.lang.AssertionError: ERROR: OCCURRED DURING CLICKING OF ELEMENT
+	at org.junit.Assert.fail(Assert.java:89)
+	at com.base.Base_Class.elementClick(Base_Class.java:76)
+	at com.pageobjectmodel.ProjectsPage.ProjectsPageValidation(ProjectsPage.java:53)
+	at com.runner.NaukriRunner.projectPage(NaukriRunner.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace981231499", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace981231499'><pre>java.lang.AssertionError: ERROR: OCCURRED DURING CLICKING OF ELEMENT
+	at org.junit.Assert.fail(Assert.java:89)
+	at com.base.Base_Class.elementClick(Base_Class.java:76)
+	at com.pageobjectmodel.ProjectsPage.ProjectsPageValidation(ProjectsPage.java:53)
+	at com.runner.NaukriRunner.projectPage(NaukriRunner.java:70)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>4</td>
+<td>com.runner.NaukriRunner@bccb269</td></tr>
+<tr>
+<td title='com.runner.NaukriRunner.projectPage()'><b>projectPage</b><br>Test class: com.runner.NaukriRunner</td>
+<td><div><pre>java.lang.AssertionError: ERROR: OCCURRED DURING CLICKING OF ELEMENT
+	at org.junit.Assert.fail(Assert.java:89)
+	at com.base.Base_Class.elementClick(Base_Class.java:76)
+	at com.pageobjectmodel.ProjectsPage.ProjectsPageValidation(ProjectsPage.java:53)
+	at com.runner.NaukriRunner.projectPage(NaukriRunner.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2075981552", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2075981552'><pre>java.lang.AssertionError: ERROR: OCCURRED DURING CLICKING OF ELEMENT
+	at org.junit.Assert.fail(Assert.java:89)
+	at com.base.Base_Class.elementClick(Base_Class.java:76)
+	at com.pageobjectmodel.ProjectsPage.ProjectsPageValidation(ProjectsPage.java:53)
+	at com.runner.NaukriRunner.projectPage(NaukriRunner.java:70)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>4</td>
 <td>com.runner.NaukriRunner@bccb269</td></tr>
 </table><p>
 </body>
